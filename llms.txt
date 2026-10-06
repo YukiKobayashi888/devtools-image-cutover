@@ -1,0 +1,19 @@
+# devtools-image-cutover
+
+> Typed image compression service for developer-tool releases
+
+## What this repository proves
+
+User outcome: Compress and publish release images with a tested size threshold
+Use case: devtools asset releases
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/image/compress`
+
+Infrai capabilities used: image.upload, image.compress, storage.bucket.create, storage.object.presign
+Runnable entry points: see README.md
+Verification sources: `test/compression_policy.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

@@ -1,0 +1,1 @@
+{"name":"devtools-image-cutover","version":"1.0.0","type":"module","scripts":{"dev":"tsx src/devtools_service.ts","test":"tsx test/compression_policy.test.ts","typecheck":"tsc --noEmit"},"dependencies":{"zod":"^3.23.8"},"devDependencies":{"tsx":"^4.19.0","typescript":"^5.6.0","@types/node":"^22.0.0"}}
